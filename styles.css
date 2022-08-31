@@ -15,7 +15,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    padding: 0 150px;
+    padding: 0 120px;
 }
 
 main {
@@ -33,11 +33,11 @@ main {
 }
 
 .testimonials p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .testimonials h1 {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .testimonials span, .testimonials p {
@@ -99,7 +99,13 @@ main {
     color: white;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-height: 900px) {
+    body {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
     body {
         height: auto;
         padding: 20px;
